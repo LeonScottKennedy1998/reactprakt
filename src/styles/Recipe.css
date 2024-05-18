@@ -1,0 +1,42 @@
+.recipe {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe h2 {
+    margin: 0;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.recipe .text {
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.recipe .text ul,
+.recipe .text ol {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.recipe .text li {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    text-align: left; 
+}
+
+.recipe .image {
+    text-align: center;
+}
+
+.recipe img {
+    max-width: 100%;
+    height: auto;
+}
